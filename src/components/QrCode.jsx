@@ -63,10 +63,10 @@ const QrCode = () => {
         </div>
 
         <div className='mb-8'>
-        <label htmlFor='sizeInput'>Enter the Size </label>
+        <label htmlFor='sizeInput' >Enter the Size </label>
           <input
             type='text'
-            className='w-full border border-gray-300 py-1 px-2 rounded'
+            className='w-full border border-gray-300 py-1 px-2 rounded '
             placeholder='enter size'
             value={qrSize}
             id='sizeInput'
